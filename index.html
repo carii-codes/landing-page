@@ -12,18 +12,20 @@
           body {margin: 0%;}
           header {background-color: #273347; display: flex; flex-direction: row; flex-wrap: nowarp; align-content: normal; 
           justify-content: flex-end; align-items: normal; position: fixed; top: 0; left: 0; width: 100%; z-index: 10;}
-          #header {display: flex; flex-direction: row; flex-wrap: nowrap; align-content: flex-start; justify-content: flex-start;}
+          .header {display: flex; flex-direction: row; flex-wrap: nowrap; align-content: flex-start; justify-content: flex-start;}
           li {color: white;}
           a:link {color: white; background-color: transparent; text-decoration: none;}
           a:visited {color: #fa6bf0; background-color: transparent; text-decoration: underline;}
           #Welcome {padding-top: 20%; padding-bottom: 5%; padding-left: 10%; background-color: #384863; font-family: Verdana, Geneva, Tahoma, sans-serif;}
-          .img {background-color: white;  }
-          .Gallery {padding: 10%;}
+          .img {background-color: white; float: right; width: 20%; border-color: blue; border-width: 10%;}
+          #Gallery {padding-bottom: 30%;}
           h2 {display: flex; flex-direction: column; justify-content: center;}
           #About_us {background-color: #cacbcc; padding: 10%; padding-left: 30%; display: flex; flex-direction: column; justify-content: center;} 
           #dark-background-top {background-color: #384863; display: flex; justify-content: space-around; gap: 1100px;}
           #dark-background {background-color: #384863; padding: 3%; display: flex; justify-content: center;}
           .quote {background-color: lightgray; height: 90px; width: 400px; font-size: 120%; font-family: Andale Mono;}
+          .mid {display: flex; flex-direction: row; justify-content: center;}
+          figcaption {display: flex; flex-direction: row-reverse; justify-content: flex-start;}
         </style>
 
   <nav id="navbar">
@@ -47,13 +49,13 @@
     <section id="Gallery">
     <div class="mid"><h2>Types of cats</h2></div>
     <div class="img"><img src="images/maine-coon.jpg" width="200px" height="200px"></div>
-    <figcaption>Maine Coon</figcaption><br>
+    <figcaption>Maine Coon</figcaption>
     <div class="img"><img src="images/siamese-cat.jpg" width="200px" height="200px"></div>
-     <figcaption>Siamese Cat</figcaption><br>
+     <figcaption>Siamese Cat</figcaption>
     <div class="img"><img src="images/Sphynx.jpg" width="200px" height="200px"></div>
-    <figcaption>Sphynx Cat</figcaption><br>
+    <figcaption>Sphynx Cat</figcaption>
     <div class="img"><img src="images/munchkin-cats.jpg" width="200px" height="200px"></div>
-    <figcaption>Munchkin Cat</figcaption><br>
+    <figcaption>Munchkin Cat</figcaption>
       </section>
 
       <section id="About_us">
