@@ -9,6 +9,7 @@
       <header id="dark-background-top">
         <div class="header"><img src="images/types-of-cats.jpg" width="100px" height="100px"></div>
         <style>
+          
           body {margin: 0%;}
           header {background-color: #273347; display: flex; flex-direction: row; flex-wrap: nowarp; align-content: normal; 
           justify-content: flex-end; align-items: normal; position: fixed; top: 0; left: 0; width: 100%; z-index: 10;}
@@ -18,9 +19,9 @@
           a:visited {color: #fa6bf0; background-color: transparent; text-decoration: underline;}
           #Welcome {padding-top: 20%; padding-bottom: 5%; padding-left: 10%; background-color: #384863; font-family: Verdana, Geneva, Tahoma, sans-serif;}
           .img {background-color: #027efa; float: left; width: 200px; height: auto; border: 3px solid #027efa; border-radius: 50px;}
-          img {object-fit: cover; border-radius: 50px;}
+          .img-2 {object-fit: cover; border-radius: 50px;}
           #Gallery {padding-bottom: 30%;}
-          .gallery-a {display: flex; flex-direction: row; justify-content: flex-start; justify-content: space-around;}
+          .gallery-a {display: flex; flex-direction: row; justify-content: flex-start; justify-content: space-around; padding-top: 5%;}
           h2 {display: flex; flex-direction: column; justify-content: center;}
           #About_us {background-color: #cacbcc; padding: 10%; padding-left: 30%; display: flex; flex-direction: column; justify-content: center;} 
           #dark-background-top {background-color: #384863; display: flex; justify-content: space-around; gap: 1100px;}
@@ -28,7 +29,7 @@
           .quote {background-color: lightgray; height: 90px; width: 400px; font-size: 120%; font-family: Andale Mono;}
           .mid {display: flex; flex-direction: row; justify-content: center;}
           figcaption {float: left; clear: both; font-family: arial black;}
-          .gallery-b {display: flex; flex-direction: row; justify-content: flex-start; justify-content: space-between;}
+          .gallery-b {display: flex; flex-direction: row; justify-content: flex-start; justify-content: space-evenly;}
           .hero-secondary {color: white; font-family: 'Times New Roman', Times, serif;}
         </style>
 
@@ -53,11 +54,11 @@
     <section id="Gallery">
     <div class="mid"><h2>Types of cats</h2></div>
     <div class="gallery-a">
-    <div class="img"><img src="images/maine-coon.jpg" width="200px" height="200px"></div>
-    <div class="img"><img src="images/siamese-cat.jpg" width="200px" height="200px"></div>
-    <div class="img"><img src="images/Sphynx.jpg" width="200px" height="200px"></div>
-    <div class="img"><img src="images/munchkin-cats.jpg" width="200px" height="200px"></div>
-    </div>
+    <div class="img"><img class="img-2" src="images/maine-coon.jpg" width="200px" height="200px"></div>
+    <div class="img"><img class="img-2" src="images/siamese-cat.jpg" width="200px" height="200px"></div>
+    <div class="img"><img class="img-2" src="images/Sphynx.jpg" width="200px" height="200px"></div>
+    <div class="img"><img class="img-2" src="images/munchkin-cats.jpg" width="200px" height="200px"></div>
+    </div><br>
     <div class="gallery-b">
     <figcaption>Maine Coon</figcaption>
     <figcaption>Siamese Cat</figcaption>
